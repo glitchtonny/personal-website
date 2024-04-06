@@ -2,10 +2,164 @@
 <html lang="en">
   <head>
     <title>My personal website</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
   </head>
+  <style>
+
+    .container {
+        position:relative;
+        font-family: Arial;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        
+    }
+</style>
+
   <body>
-    <h1>Hello World!</h1> 
+    
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="#"><img src="images/logo.jpg" alt="Tonny's" weight="200px" height="100px"></a>
+            </div>
+            <div class="navbar">
+                <div class="close-nav"><button>×</button></div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul><strong></strong>
+                </nav>
+            </div>
+            <div class="menu-bar">
+                <button><i></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="col-md-12 main-banner" style="width:100%;">
+            <img class="banner" src="images/gym1.jpg" alt="testimage" style="width:100%; height: 900px;">
+            <div class="text-block">
+                <h1>NO PAIN NO GAIN</h>
+                <p>Having a perfect body requires a lot of training. 
+                    Nice-looking body and powerful organism are interconnected
+                     – and we can help you with both. </p>
+            
+
+            <button onclick="myFunction()">Get Started</button>
+            
+
+            </div>
+        </div>
+        <!--About section-->
+        <div class="row about-section" style="width:100%;">
+            <div class="col-md-7 about-body" style="color: blue;">
+                <h1>WELCOME</h1>
+                <p>We're thrilled to have you join us on your fitness journey. 
+                    Whether you're here to lift weights,<br> hit the cardio machines,
+                     or try one of our group classes, we're here to support you every 
+                     step <br>of the way. Get ready to sweat,push your limits, and achieve 
+                     your fitness goals. <br>Let's make today an incredible workout together!"</p>
+                 <p>From the moment you walk through our doors, you'll feel the energy and excitement 
+                    that <br>permeates our space. Our state-of-the-art facilities are equipped with everything
+                     you need <br>to crush your workout, from cutting-edge equipment to expert trainers ready
+                      to guide and<br> motivate you every step of the way.</p>
+                 <p>So, lace up your shoes, grab your towel, and get ready to sweat, smile, and transform.<br>
+                     Your journey starts now, and we're honored to be a part of it. Welcome to our fitness gym,<br> 
+                     where the only limit is your determination. Let's make every workout count!</p>    
+            </div>
+            <div class="col-md-5 about-img">
+                <img class="about-photo" src="images/gym.jpg" alt="testimage" style="width:100%; height: 350px;">
+            </div>
+        </div>
+        <div class="row main-banner" style="width:100%;">
+            <div class="col-md-4 blog-body">
+                <img class="blog-img" src="images/gym2.jpg" alt="testimage">
+                <div class="blog-det">
+                    <p>BODY BUILDING</p>
+                    <p></p>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-md-4 blog-body">
+                <img class="blog-img" src="images/gym3 .jpg" alt="testimage">
+                <div class="blog-det">
+                    <p>FITNESS</p>
+                    <p></p>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-md-4 blog-body">
+                <img class="blog-img" src="images/gym4.jpg" alt="testimage">
+                <div class="blog-det">
+                    <p>CROSSFIT</p>                
+                    <p></p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="wrapp">
+            <div class="col-md-12 main-wrapp" style="width: 100%;">
+                <img class="wrapping" src="images/gym5.jpg" alt="testimg" style="width: 100%; height: 900px;">
+                <div class="text-block">
+                    <h1>BUILD PERFECT BODY SHAPE FOR GOOD AND HEALTY LIFE.</h>
+                    <p> </p>
+                    
+                </div>
+            </div>
+        </div>
+        <!--FOOTER-->
+        <div class="row footer" style="width:100%; margin-top: 80px;">
+            <div class="col-md-6 ">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.jpg" alt="Tonny's"></a>
+                </div>
+                <div class="footer-det">
+                    <h2></h2>
+                    <p></p>
+                    <p>Social Links</p>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    
+                </div>
+            </div>
+            <div class="col-md-6">
+
+               <br>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <br>
+                <br>
+                <h2>found in:</h2>
+                <ul>
+                    <li>Washington</li>
+                    <li>New York</li>
+                </ul>
+            </div>
+            <div class="col-md-12" style="text-align: center;">
+                <p>Made with love by @tonny</p>
+            </div>
+            
+        </div>
+    </div>  
+        
+           
+
+    <script src="script.js"></script>
   </body>
 </html>
